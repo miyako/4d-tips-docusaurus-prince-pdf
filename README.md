@@ -70,3 +70,14 @@ npx docusaurus-prince-pdf --pdf-only
     font-family: "Meiryo UI" !important;
   }
 ```
+
+---
+
+* for English v19
+
+
+```sh
+cd ~/Desktop/
+mkdir -p pdf/developer.4d.com-docs-19/en/GettingStarted
+npx docusaurus-prince-pdf --url https://developer.4d.com/docs/19/en/GettingStarted/installation.html --selector 'div.docs-prevnext > a.docs-next' --output doc.pdf
+```
