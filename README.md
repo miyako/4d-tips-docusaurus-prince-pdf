@@ -71,6 +71,10 @@ npx docusaurus-prince-pdf --pdf-only
   }
 ```
 
+* 英仏独はリンク切れがない
+
+* スペイン語は`Concepts/branching.html`で終わってしまう
+
 ---
 
 * for English v19
