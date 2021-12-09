@@ -41,3 +41,4 @@ npx docusaurus-prince-pdf --pdf-only
 
 [https://developer.4d.com/docs/ja/Tags/tags.html](https://developer.4d.com/docs/ja/Tags/tags.html)
 
+回避するためには[ページリスト](/dev.openbayes.com.txt)を用意しておき`--pdf-only`モードで出力する
