@@ -37,3 +37,7 @@ npx docusaurus-prince-pdf --pdf-only
 
 **参考**: https://www.princexml.com/purchase/license_faq/
 
+* HTMLが崩れているために途中でドキュメントが終わってしまう（Princeは「次ページ」ボタンを検索する仕組み）
+
+[https://developer.4d.com/docs/ja/Tags/tags.html](ttps://developer.4d.com/docs/ja/Tags/tags.html)
+
