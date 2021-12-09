@@ -39,5 +39,5 @@ npx docusaurus-prince-pdf --pdf-only
 
 * HTMLが崩れているために途中でドキュメントが終わってしまう（Princeは「次ページ」ボタンを検索する仕組み）
 
-[https://developer.4d.com/docs/ja/Tags/tags.html](ttps://developer.4d.com/docs/ja/Tags/tags.html)
+[https://developer.4d.com/docs/ja/Tags/tags.html](https://developer.4d.com/docs/ja/Tags/tags.html)
 
