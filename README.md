@@ -41,3 +41,43 @@ npx docusaurus-prince-pdf --pdf-only
 
 [https://developer.4d.com/docs/ja/Tags/tags.html](https://developer.4d.com/docs/ja/Tags/tags.html)
 
+回避するためには[ページリスト](/dev.openbayes.com.txt)を用意しておき`--pdf-only`モードで出力する
+
+* デフォルトの設定では余計な要素が出力されるので
+
+```
+~/.npm/_npx/{identifier}/node_modules/docusaurus-prince-pdf/print.css
+```
+
+のスタイルシートを編集する
+
+```css
+  .button,
+  .nav-footer,
+  .navBreadcrumb {
+    display: none !important;
+  }
+
+  input {
+      display: none !important;
+  }
+
+  ul.nav-site > li {
+      display: none !important;
+  }
+
+  p, li, th, tr, td, h1, h2, h3, h4, h5, h6 {
+    font-family: "Meiryo UI" !important;
+  }
+```
+
+---
+
+* for English v19
+
+
+```sh
+cd ~/Desktop/
+mkdir -p pdf/developer.4d.com-docs-19/en/GettingStarted
+npx docusaurus-prince-pdf --url https://developer.4d.com/docs/19/en/GettingStarted/installation.html --selector 'div.docs-prevnext > a.docs-next' --output doc.pdf
+```
