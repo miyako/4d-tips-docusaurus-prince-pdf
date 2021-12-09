@@ -9,6 +9,14 @@ docusaurus-prince-pdfを使用してPDFを作成するには
 
 * `./pdf/`以降のフォルダーをあらかじめ作成しておく必要がある。
 
+**例**:
+
+```sh
+cd ~/Desktop/
+mkdir -p pdf/developer.4d.com-docs-ja/Concepts
+npx docusaurus-prince-pdf --url https://developer.4d.com/docs/ja/Concepts/error-handling.html --selector 'div.docs-prevnext > a.docs-next' --output doc.pdf
+```
+
 **裏技**
 
 ```
