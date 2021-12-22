@@ -43,11 +43,7 @@ npx docusaurus-prince-pdf --pdf-only
 
 **参考**: https://www.princexml.com/purchase/license_faq/
 
-* HTMLが崩れているために途中でドキュメントが終わってしまう（Princeは「次ページ」ボタンを検索する仕組み）
-
-[https://developer.4d.com/docs/ja/Tags/tags.html](https://developer.4d.com/docs/ja/Tags/tags.html)
-
-回避するためには[ページリスト](/dev.openbayes.com.txt)を用意しておき`--pdf-only`モードで出力する
+* HTMLが崩れているために途中でドキュメントが終わってしまう場合，[ページリスト](/dev.openbayes.com.txt)を用意しておき`--pdf-only`モードで出力する
 
 * デフォルトの設定では余計な要素が出力されるので
 
@@ -76,9 +72,3 @@ npx docusaurus-prince-pdf --pdf-only
     font-family: "Meiryo UI" !important;
   }
 ```
-
-* 英仏独はリンク切れがない
-
-* スペイン語は`Concepts/branching.html`で終わってしまう
-
-
