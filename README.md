@@ -13,8 +13,14 @@ docusaurus-prince-pdfを使用してPDFを作成するには
 
 ```sh
 cd ~/Desktop/
-mkdir -p pdf/developer.4d.com-docs-ja/Concepts
-npx docusaurus-prince-pdf --url https://developer.4d.com/docs/ja/Concepts/error-handling.html --selector 'div.docs-prevnext > a.docs-next' --output doc.pdf
+mkdir -p pdf/developer.4d.com-docs-19/ja/GettingStarted
+npx docusaurus-prince-pdf --url https://developer.4d.com/docs/19/ja/GettingStarted/installation.html --selector 'div.docs-prevnext > a.docs-next' --output doc.pdf
+```
+
+```sh
+cd ~/Desktop/
+mkdir -p pdf/developer.4d.com/go-mobile/ja/docs/getting-started/
+npx docusaurus-prince-pdf --url https://developer.4d.com/go-mobile/ja/docs/getting-started/introduction --selector "div.pagination-nav__item--next > a.pagination-nav__link" --output doc.pdf
 ```
 
 **裏技**
@@ -75,13 +81,4 @@ npx docusaurus-prince-pdf --pdf-only
 
 * スペイン語は`Concepts/branching.html`で終わってしまう
 
----
 
-* for English v19
-
-
-```sh
-cd ~/Desktop/
-mkdir -p pdf/developer.4d.com-docs-19/en/GettingStarted
-npx docusaurus-prince-pdf --url https://developer.4d.com/docs/19/en/GettingStarted/installation.html --selector 'div.docs-prevnext > a.docs-next' --output doc.pdf
-```
