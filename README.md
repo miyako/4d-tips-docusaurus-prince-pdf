@@ -56,6 +56,21 @@ npx docusaurus-prince-pdf --pdf-only
 のスタイルシートを編集する
 
 ```css
+
+  .navPusher {
+    padding-top: 0px !important;
+  }
+
+  .mainContainer{
+    padding: 50px 0 0 0 !important;
+  }
+  
+  .fixedHeaderContainer {
+    /* 上部の青いバナーも消すには display: none; */
+  }    
+
+
+  .slidingNav,
   .button,
   .nav-footer,
   .navBreadcrumb {
@@ -63,11 +78,11 @@ npx docusaurus-prince-pdf --pdf-only
   }
 
   input {
-      display: none !important;
+    display: none !important;
   }
 
   ul.nav-site > li {
-      display: none !important;
+    display: none !important;
   }
 
   p, li, th, tr, td, h1, h2, h3, h4, h5, h6 {
