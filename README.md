@@ -11,10 +11,19 @@ docusaurus-prince-pdfを使用してPDFを作成するには
 
 **例**:
 
+* LTS
+
 ```sh
 cd ~/Desktop/
 mkdir -p pdf/developer.4d.com-docs-19/ja/GettingStarted
 npx docusaurus-prince-pdf --url https://developer.4d.com/docs/19/ja/GettingStarted/installation.html --selector 'div.docs-prevnext > a.docs-next' --output doc.pdf
+```
+* Rx
+
+```sh
+cd ~/Desktop/
+mkdir -p pdf/developer.4d.com-docs-Rx/ja/GettingStarted
+npx docusaurus-prince-pdf --url https://developer.4d.com/docs/Rx/ja/GettingStarted/installation.html --selector 'div.docs-prevnext > a.docs-next' --output doc.pdf
 ```
 
 ```sh
