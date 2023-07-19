@@ -34,12 +34,12 @@ mkdir -p pdf/developer.4d.com-docs-Rx/ja/GettingStarted
 npx docusaurus-prince-pdf --url https://developer.4d.com/docs/Rx/ja/GettingStarted/installation.html --selector 'div.docs-prevnext > a.docs-next' --output doc.pdf
 ```
 
+* Go Mobile
+
 ```sh
 cd ~/Desktop/
 mkdir -p pdf/developer.4d.com-go-mobile-ja/docs/getting-started
-npx docusaurus-prince-pdf --url https://developer.4d.com/go-mobile/ja/docs/getting-started/introduction --selector "div.pagination-nav__item--next > a.pagination-nav__link" --output doc.pdf
-mkdir -p pdf/developer.4d.com-go-mobile-docs/getting-started
-npx docusaurus-prince-pdf --url https://developer.4d.com/go-mobile/docs/getting-started/introduction --selector "div.pagination-nav__item--next > a.pagination-nav__link" --output doc.pdf
+npx docusaurus-prince-pdf --url https://developer.4d.com/go-mobile/ja/docs/getting-started/introduction --selector ".pagination-nav__link--next" --output doc.pdf
 ```
 
 **裏技**
